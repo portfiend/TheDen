@@ -49,17 +49,7 @@ obvious-type-pride-straightally = [color=#7c7c7c]straight[/color] [color=#d479d4
 obvious-type-pride-gq = [color=#B57EDC]genderqueer[/color] [color=#4A8123]pride[/color]
 obvious-type-pride-plural = [color=#31C69E]plural[/color] [color=#6B3FBD]pride[/color]
 
-# lawyers
-obvious-type-law = [color=white]certified[/color] [color=#FFD700]lawyer[/color]
-obvious-type-law-defense = [color=white]certified[/color] [color=#00C0C0]defense attorney[/color]
-obvious-type-law-prosecution = [color=white]certified[/color] [color=#FF2222]prosecuting attorney[/color]
-
 ## SPECIFIC DESCRIPTIONS (skips the above description-builders)
 obvious-x-scarf-lesbian-long = some [color=#EF7627]long[/color] [color=white]ba[/color][color=#B55690]con[/color].
 obvious-x-medal-nothing = a [color=#FFD700]gleaming medal[/color]!
 # medals should be in the description building functions but there's too many of them and this feature is already over-scope
-
-# imp only items
-obvious-x-pin-straight = a [color=#7c7c7c]straight[/color] [color=white]pride[/color] pin... [italic]Ew.[/italic]
-obvious-x-cloak-straight = a cloak in the [color=#7c7c7c]straight[/color] [color=white]pride[/color] colors... [italic]Ew.[/italic]
-
