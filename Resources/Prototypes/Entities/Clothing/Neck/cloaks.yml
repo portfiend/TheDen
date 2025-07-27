@@ -256,17 +256,6 @@
 
 - type: entity
   parent: [ ClothingNeckBase, BaseObviousCloak ] # imp
-  id: ClothingNeckCloakAroace
-  name: aeropilot's cloak # thank you happyman442 this was the best name idea ever
-  description: Cloak awarded to Nanotrasen's finest pilots on planets with inhabitable atmospheres.
-  components:
-  - type: Sprite
-    sprite: Clothing/Neck/Cloaks/aroace.rsi
-  - type: WearerGetsExamineText # imp
-    thingType: obvious-type-pride-aroace
-
-- type: entity
-  parent: [ ClothingNeckBase, BaseObviousCloak ] # imp
   id: ClothingNeckCloakBi
   name: poison cloak
   description: The purple color is a clear indicator you are poisonous.
@@ -347,14 +336,3 @@
   - type: ContainerContainer
     containers:
       toggleable-clothing: !type:Container {}
-
-- type: entity
-  parent: [ ClothingNeckBase, BaseObviousCloak ] # imp
-  id: ClothingNeckCloakBear
-  name: druid cloak
-  description: This cloak has a wild-looking shape on it.
-  components:
-  - type: Sprite
-    sprite: Clothing/Neck/Cloaks/bear.rsi
-  - type: WearerGetsExamineText # imp
-    thingType: obvious-type-pride-bear

@@ -6,3 +6,25 @@
     examineText: obvious-desc-colors
     thing: obvious-thing-cloak
     warnExamine: false # for funny jokes!
+
+- type: entity
+  parent: [ ClothingNeckBase, BaseObviousCloak ]
+  id: ClothingNeckCloakAroace
+  name: aeropilot's cloak # thank you happyman442 this was the best name idea ever
+  description: Cloak awarded to Nanotrasen's finest pilots on planets with inhabitable atmospheres.
+  components:
+  - type: Sprite
+    sprite: Clothing/Neck/Cloaks/aroace.rsi
+  - type: WearerGetsExamineText
+    thingType: obvious-type-pride-aroace
+
+- type: entity
+  parent: [ ClothingNeckBase, BaseObviousCloak ]
+  id: ClothingNeckCloakBear
+  name: druid cloak
+  description: This cloak has a wild-looking shape on it.
+  components:
+  - type: Sprite
+    sprite: Clothing/Neck/Cloaks/bear.rsi
+  - type: WearerGetsExamineText
+    thingType: obvious-type-pride-bear

@@ -1,0 +1,77 @@
+- type: entity
+  parent: ClothingNeckPinBase
+  id: ClothingNeckAllyPin
+  name: straight ally pin
+  description: Be ally do crime.
+  components:
+  - type: Sprite
+    state: ally
+  - type: Clothing
+    equippedPrefix: ally
+  - type: WearerGetsExamineText
+    thingType: obvious-type-pride-straightally
+
+- type: entity
+  parent: ClothingNeckPinBase
+  id: ClothingNeckAroacePin
+  name: aroace pin
+  description: Be aroace do crime.
+  components:
+  - type: Sprite
+    state: aroace
+  - type: Clothing
+    equippedPrefix: aroace
+  - type: WearerGetsExamineText
+    thingType: obvious-type-pride-aroace
+
+- type: entity
+  parent: ClothingNeckPinBase
+  id: ClothingNeckGenderfluidPin
+  name: genderfluid pin
+  description: be gender, be fluid
+  components:
+  - type: Sprite
+    state: fluid
+  - type: Clothing
+    equippedPrefix: fluid
+  - type: WearerGetsExamineText
+    thingType: obvious-type-pride-gf
+
+- type: entity
+  parent: ClothingNeckPinBase
+  id: ClothingNeckGenderqueerPin
+  name: genderqueer pin
+  description: be crime, do gender
+  components:
+  - type: Sprite
+    state: gender
+  - type: Clothing
+    equippedPrefix: gender
+  - type: WearerGetsExamineText
+    thingType: obvious-type-pride-gq
+
+- type: entity
+  parent: ClothingNeckPinBase
+  id: ClothingNeckOmnisexualPin
+  name: omnisexual pin
+  description: Be omni do crime.
+  components:
+  - type: Sprite
+    state: omni
+  - type: Clothing
+    equippedPrefix: omni
+  - type: WearerGetsExamineText
+    thingType: obvious-type-pride-omni
+
+- type: entity
+  parent: ClothingNeckPinBase
+  id: ClothingNeckPluralPin
+  name: plural pin
+  description: Be plural, do crimes.
+  components:
+  - type: Sprite
+    state: plural
+  - type: Clothing
+    equippedPrefix: plural
+  - type: WearerGetsExamineText
+    thingType: obvious-type-pride-plural
