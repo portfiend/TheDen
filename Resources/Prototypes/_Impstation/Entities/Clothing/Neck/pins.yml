@@ -1,18 +1,5 @@
 - type: entity
   parent: ClothingNeckPinBase
-  id: ClothingNeckAllyPin
-  name: straight ally pin
-  description: Be ally do crime.
-  components:
-  - type: Sprite
-    state: ally
-  - type: Clothing
-    equippedPrefix: ally
-  - type: WearerGetsExamineText
-    thingType: obvious-type-pride-straightally
-
-- type: entity
-  parent: ClothingNeckPinBase
   id: ClothingNeckAroacePin
   name: aroace pin
   description: Be aroace do crime.
