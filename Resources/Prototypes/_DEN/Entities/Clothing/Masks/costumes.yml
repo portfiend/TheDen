@@ -1,0 +1,66 @@
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskSkeleton
+  name: skeleton mask
+  description: 
+  components:
+  - type: Sprite
+    sprite: _DEN/Clothing/Mask/Costumes/skeleton.rsi
+  - type: Clothing
+    sprite: _DEN/Clothing/Mask/Costumes/skeleton.rsi
+  - type: IngestionBlocker
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - FacialHair
+    - Snout
+    - HeadTop
+    - HeadSide
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskSkeletonGlow
+  name: glow skeleton mask
+  description: 
+  components:
+  - type: Sprite
+    sprite: _DEN/Clothing/Mask/Costumes/glow_skeleton.rsi
+    layers:
+    - state: icon
+    - state: icon-glow
+      color: "#ffffff44"
+      shader: unshaded
+  - type: Clothing
+    sprite: _DEN/Clothing/Mask/Costumes/glow_skeleton.rsi
+    clothingVisuals:
+      jumpsuit:
+      - state: equipped-MASK
+      - state: equipped-MASK-glow
+        shader: unshaded
+  - type: IngestionBlocker
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - FacialHair
+    - Snout
+    - HeadTop
+    - HeadSide
+
+- type: entity
+  parent: ClothingMaskPullableBase
+  id: ClothingMaskSpandexBodysuit
+  name: spandex mask
+  description: 
+  components:
+  - type: Sprite
+    sprite: _DEN/Clothing/Mask/Costumes/spandex.rsi
+  - type: Clothing
+    sprite: _DEN/Clothing/Mask/Costumes/spandex.rsi
+  - type: IngestionBlocker
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - FacialHair
+    - Snout
+    - HeadTop
+    - HeadSide
