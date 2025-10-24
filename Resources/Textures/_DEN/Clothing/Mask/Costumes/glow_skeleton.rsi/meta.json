@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "license": "CC0-1.0",
+  "copyright": "sprites by portfiend (GitHub)",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "icon"
+    },
+    {
+      "name": "icon-glow"
+    },
+    {
+      "name": "equipped-MASK",
+      "directions": 4
+    },
+    {
+      "name": "equipped-MASK-glow",
+      "directions": 4
+    }
+  ]
+}
