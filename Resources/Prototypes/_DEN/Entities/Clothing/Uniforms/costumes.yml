@@ -1,0 +1,42 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitSkeleton
+  name: skeleton costume
+  description:
+  components:
+  - type: Sprite
+    sprite: _DEN/Clothing/Uniforms/Costumes/skeleton.rsi
+  - type: Clothing
+    sprite: _DEN/Clothing/Uniforms/Costumes/skeleton.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitSkeletonGlow
+  name: glow skeleton costume
+  description:
+  components:
+  - type: Sprite
+    sprite: _DEN/Clothing/Uniforms/Costumes/glow_skeleton.rsi
+    layers:
+    - state: icon
+    - state: icon-glow
+      color: "#ffffff44"
+      shader: unshaded
+  - type: Clothing
+    sprite: _DEN/Clothing/Uniforms/Costumes/glow_skeleton.rsi
+    clothingVisuals:
+      jumpsuit:
+      - state: equipped-INNERCLOTHING
+      - state: equipped-INNERCLOTHING-glow
+        shader: unshaded
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitSpandexBodysuit
+  name: spandex bodysuit
+  description:
+  components:
+  - type: Sprite
+    sprite: _DEN/Clothing/Uniforms/Costumes/spandex.rsi
+  - type: Clothing
+    sprite: _DEN/Clothing/Uniforms/Costumes/spandex.rsi
