@@ -4,7 +4,7 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
-using Content.Shared.Kitchen.Components;
+using Content.Server.Kitchen.Components;
 using Content.Shared._Shitmed.Medical.Surgery.Tools;
 
 namespace Content.Server._Shitmed.Medical.Surgery;

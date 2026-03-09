@@ -8,32 +8,22 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
-using Content.Shared.Nutrition.Components;
-using Robust.Shared.GameStates;
-
-namespace Content.Shared.Kitchen.Components;
+namespace Content.Server.Kitchen.Components;
 
 /// <summary>
 ///     Applies to items that are capable of butchering entities, or
 ///     are otherwise sharp for some purpose.
 /// </summary>
-[RegisterComponent, NetworkedComponent]
-[AutoGenerateComponentState]
+[RegisterComponent]
 public sealed partial class SharpComponent : Component
 {
-    /// <summary>
-    /// List of the entities that are currently being butchered.
-    /// </summary>
-    // TODO just make this a tool type. Move SharpSystem to shared.
-    [AutoNetworkedField]
-    public readonly HashSet<EntityUid> Butchering = [];
+    // TODO just make this a tool type.
+    public HashSet<EntityUid> Butchering = new();
 
-    /// <summary>
-    /// Affects butcher delay of the <see cref="ButcherableComponent"/>.
-    /// </summary>
-    [DataField, AutoNetworkedField]
+    [DataField("butcherDelayModifier")]
     public float ButcherDelayModifier = 1.0f;
 
+    
     /// <summary>
     ///     Shitmed: Whether this item had <c>ScalpelComponent</c> before sharp was added.
     /// </summary>
