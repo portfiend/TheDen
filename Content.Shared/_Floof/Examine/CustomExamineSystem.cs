@@ -20,7 +20,7 @@ namespace Content.Shared._Floof.Examine;
 
 public abstract class SharedCustomExamineSystem : EntitySystem
 {
-    public static ProtoId<ConsentTogglePrototype> NsfwDescConsent = "NSFWDescriptions";
+    public static ProtoId<ConsentTogglePrototype> NsfwDescConsent = "NSFWExamines"; // DEN: NSFWDescriptions -> NSFWExamines
     public static int PublicMaxLength = 256, SubtleMaxLength = 256;
     /// <summary>Max length of any content field, INCLUDING markup.</summary>
     public static int AbsolutelyMaxLength = 1024;
