@@ -48,7 +48,7 @@ consent-NSFWDescriptions-desc =
 consent-NSFWExamines-name = Show NSFW Character Examine Texts
 consent-NSFWExamines-desc =
     Enables the ability to see NSFW-oriented examine text on a player's examine tooltip.
-    {""}[color=red]These tooltips may contain more active "scene details" than other NSFW descriptions.[/color]
+    {""}[color=orange]NSFW custom examine may contain more active "scene details" than other NSFW descriptions.[/color]
 
 consent-LastMessage-name = No Last Message Entries
 consent-LastMessage-desc = Toggle this on to never appear in the "last words" discord webhook. Local chat is the only one ever sent.
